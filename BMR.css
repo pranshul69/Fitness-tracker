@@ -1,0 +1,103 @@
+/* Background image */
+*{
+    margin: 0;
+    padding:0;
+}
+body {
+    background-image: url('BMR4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+
+/* Header styles */
+h1 {
+	text-align: center;
+	color: rgb(110, 87, 41);
+	font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Form styles */
+form {
+	background-color: rgba(191, 218, 207, 0.419);
+	border: 1px solid rgba(204, 204, 204, 0.207);
+	padding: 20px;
+	max-width: 400px;
+	margin: 0 auto;
+    margin-top: 18%;
+    min-width: 50%;
+    font-size: 15px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #333;
+}
+
+select,
+input[type="number"],
+input[type="text"] {
+    display: block;
+	width: 100%;
+	padding: 10px;
+	/* border: 1px solid rgba(14, 151, 71, 0.357); */
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #333;
+    background-color: #b1c5a364;
+    border:none;
+}
+
+select:focus,
+input[type="number"]:focus,
+input[type="text"]:focus {
+    outline: none;
+}
+select{
+    background-color: #b1c5a364;
+    border:none;
+}
+
+button[type="button"] {
+    background-color:#6d5b119a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    
+    button[type="button"]:hover {
+        background-color: #c0a53a9a;
+    }
+    
+    .error-message {
+    color: red;
+    margin-bottom: 10px;
+    }
+    
+    .success-message {
+    color: #c0a53a9a;
+    margin-bottom: 10px;
+    }
+    
+    /* Footer styles */
+    footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
+    
+    
